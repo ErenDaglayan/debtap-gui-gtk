@@ -7,8 +7,20 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 ### Before
 ![Main Window](Before.png)
 
+### Now
+![Transforming] (Now.png)
+
 ### After
 ![Conversion Process](After.png)
+
+### Setting Menu
+(Settings.png)
+
+### Information Menu
+(Information.png)
+
+### Update Menu
+Update.png)
 
 ## Features
 * Modern GTK4 UI with Libadwaita.
@@ -17,6 +29,7 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 * 12 language support.
 * Detailed settings menu.
 * Debtap Update menu.
+* I don't need to open the application.(if you press the .deb file, it opens directly by default)
 
 
 ## Installation
