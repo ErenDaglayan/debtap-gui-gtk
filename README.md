@@ -16,6 +16,7 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 * Automatic terminal detection (Konsole, GNOME Terminal, Alacritty, etc.).
 * 12 language support.
 * Detailed settings menu.
+* Debtap Update menu.
 
 
 ## Installation
