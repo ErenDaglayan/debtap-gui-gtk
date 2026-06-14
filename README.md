@@ -15,9 +15,6 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 ## Installation
 This package is available on **AUR**. You can install it using an AUR helper like `yay`:
 
-```bash
-yay -S debtap-gui-gtk
-
 ## Screenshots
 
 ### Before
