@@ -1,11 +1,22 @@
+#!/usr/bin/env python3
+import sys
+import traceback
 import gi
 import subprocess
 import os
-import sys
 import threading
 import json
 import shutil
 import locale
+import os
+import sys
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+sys.path.append(dname)
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
@@ -828,5 +839,13 @@ class DebtapApp(Adw.Application):
         Adw.StyleManager.get_default().set_color_scheme(Adw.ColorScheme.PREFER_DARK)
         DebtapWindow(application=self).present()
 
-app = DebtapApp()
-app.run(None) #BİTTİİİİİİİ
+def main():
+    app = DebtapApp()
+    app.run(None)
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception:
+        traceback.print_exc()
+        input("Hata oluştu, kapatmak için Enter'a bas...")
