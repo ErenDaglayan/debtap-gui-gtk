@@ -2,15 +2,15 @@
 
 A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux packages.
 
-## Screenshots / Ekran Görüntüleri
+## Screenshots
 
-### Before / Önce
+### Before
 ![Main Window](Before.png)
 
-### After / Sonra
+### After
 ![Conversion Process](After.png)
 
-## Features / Özellikler
+## Features
 * Modern GTK4 UI with Libadwaita.
 * Drag and drop support.
 * Automatic terminal detection (Konsole, GNOME Terminal, Alacritty, etc.).
@@ -18,7 +18,7 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 * Detailed settings menu.
 
 
-## Installation / Kurulum
+## Installation
 This package is available on **AUR**. You can install it using an AUR helper like `yay`:
 
 ```bash
