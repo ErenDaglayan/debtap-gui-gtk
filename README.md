@@ -11,10 +11,6 @@ A modern GTK4/Libadwaita GUI for debtap to convert .deb packages into Arch Linux
 * Debtap Update menu.
 * I don't need to open the application.(if you press the .deb file, it opens directly by default)
 
-
-## Installation
-This package is available on **AUR**. You can install it using an AUR helper like `yay`:
-
 ## Screenshots
 
 ### Before
